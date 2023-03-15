@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content=""width="device-width, initial-scale=1.0">
+    <title>PERSONAL PORTFOLIO</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/b36dc046dd.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li> 
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fa-sharp fa-solid fa-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-sharp fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>FRESHER</p>
+            <h1>Hi,This is <br><span>Arun Santhosh Venkatesan </span></h1>
+        </div>
+    </div>
+</div>
+<!---------------------------------about----------------------------->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/1finaluser.jpg" class="pic">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>this is my first portfolio Lorem Ipsum is simply dummy textLorem Ipsum has been the industry's  when an unknown printer took a galley It has survived not only five centuries,remaining essentially unchanged. It wasof Letraset sheets containing Lorem Ipsumpublishing software like Aldus PageMaker
+                </p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('Skills')">Skills</p>
+                    <p class="tab-links"onclick="opentab('Experience')">Experience</p>
+                    <p class="tab-links"onclick="opentab('Education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="Skills">
+                    <ul>
+                        <li><span>C programmming </span><br>problem solving </li>
+                        <li><span>Web Development</span> <br>web app development </li>
+                        <li><span>App Development</span> <br>building android apps</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="Experience">
+                    <ul>
+                        <li><span>Exposys Data Labs</span> <br>Internship </li>
+                        <li><span>CATC</span> <br>Army training camp </li>
+                    </ul>
+                </div><div class="tab-contents" id="Education">
+                    <ul>
+                        <li><span>B.Tech</span> <br>IT currently pursuing from 2020 at Sri Sairam Engineering College</li>
+                        <li><span>12th </span><br>2019-2020 at Velammal Main School computer science course </li>
+                        <li><span>10th</span><br>2017-2018 at Velammal Main School </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-----------------services------------------------------->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title"> My Services</h1>
+        <div class="service-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Projects</h2>
+                <p> Lorem Ipsum is simply dummy textLorem Ipsum has been the industry's  when an unknown printer took a galley It has survived not only five centuries,remaining essentially unchanged. It wasof Letraset sheets containing Lorem Ipsumpublishing software like Aldus PageMaker</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-book"></i>
+                <h2> Courses</h2>
+                <p> Lorem Ipsum is simply dummy textLorem Ipsum has been the industry's  when an unknown printer took a galley It has survived not only five centuries,remaining essentially unchanged. It wasof Letraset sheets containing Lorem Ipsumpublishing software like Aldus PageMaker</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-certificate"></i>
+                <h2>Certificates</h2>
+                <p> Lorem Ipsum is simply dummy textLorem Ipsum has been the industry's  when an unknown printer took a galley It has survived not only five centuries,remaining essentially unchanged. It wasof Letraset sheets containing Lorem Ipsumpublishing software like Aldus PageMaker</p>
+                <a href="#">Learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!---------------portfolio-------------------------------->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/work-1.png" >
+                <div class="layer">
+                    <h3>Social media app</h3>
+                    <p>this app used to connect the society</p>
+                    <a href="#" <i class="fa-solid fa-arrow-up-right-from-square"></i>></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-2.png"> 
+                <div class="layer">
+                    <h3>Social media app</h3>
+                    <p>this app used to connect the society</p>
+                    <a href="#" <i class="fa-solid fa-arrow-up-right-from-square"></i>></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-3.png" >
+                <div class="layer">
+                    <h3>Social media app</h3>
+                    <p>this app used to connect the society</p>
+                    <a href="#" ><i class="fa-solid fa-arrow-up-right-from-square"></i>></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn"> See more</a>
+    </div>
+</div>
+<!-----------contact---------------------------------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+        <div class="contact-left">
+            <h1 class="sub-title">Contact Me</h1>
+            <p><i class="fa-sharp fa-solid fa-paper-plane-top"></i>contact@example.com</p>
+            <p><i class="fa-regular fa-phone-rotary"></i>0123456789</p>
+            <div class="Social-icons">
+                <a href=""><i class="fa-brands fa-instagram"></i></a>
+                <a href="" ><i class="fa-brands fa-github"></i></a>
+                <a href="" ><i class="fa-brands fa-twitter"></i></a>
+                <a href="" ><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+            <a href="images/Fresume (1).pdf" download class="btn btn2">Download CV</a>
+        </div>
+        <div class="contact-right">
+            <form>
+                <input type="text" name="Name" placeholder="Your Name" required>
+                <input type="email" name="Email" placeholder="Your Email" required>
+                <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                <button type="submit" class="btn btn2">Submit</button>
+                 </form>
+             </div>
+        </div>
+    </div>
+</div>
+
+<script>
+
+    var tablinks =document.getElementsByClassName("tab-links");
+    var tabcontents =document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+
+<script>
+    var sidemenu =document.getElementById("sidemenu");
+    function openmenu(){
+        sidemenu.style.right="0";
+    }
+    function closemenu(){
+        sidemenu.style.right="-200px";
+    }
+
+</script>
+
+</body>
+</html>
